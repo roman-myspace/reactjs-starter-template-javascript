@@ -1,0 +1,67 @@
+[
+  {
+    "name": "Dashboards",
+    "slug": "dashboard",
+    "url": "/admin",
+    "type": "feather",
+    "icon": "cpu",
+    "badge": ["primary", "3"]
+  },
+  {
+    "menuHeader": "Blog Management"
+  },
+  {
+    "name": "Blogs",
+    "slug": "blogs",
+    "type": "feather",
+    "icon": "file-text",
+    "submenu": [
+      {
+        "name": "Add New",
+        "slug": "blog_add_new",
+        "url": "/admin/blog/new"
+      },
+      {
+        "name": "Blog List",
+        "slug": "blogs_list",
+        "url": "/admin/blog"
+      }
+    ]
+  },
+  {
+    "name": "Category",
+    "slug": "category",
+    "type": "feather",
+    "icon": "grid",
+    "submenu": [
+      {
+        "name": "Add New",
+        "slug": "category_add_new",
+        "url": "/admin/category/new"
+      },
+      {
+        "name": "Category List",
+        "slug": "category_list",
+        "url": "/admin/category"
+      }
+    ]
+  },
+  {
+    "name": "Tags",
+    "slug": "tags",
+    "type": "feather",
+    "icon": "hash",
+    "submenu": [
+      {
+        "name": "Add New",
+        "slug": "tags_add_new",
+        "url": "/admin/tag/new"
+      },
+      {
+        "name": "Tags List",
+        "slug": "tags_list",
+        "url": "/admin/tag"
+      }
+    ]
+  }
+]
